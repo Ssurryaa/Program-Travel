@@ -592,9 +592,9 @@ class Main {
     }
 
     public static void main (String[] args) {
-        developer mydevelop = new developer();  // Create a Animal object
-        developer myname = new name();  // Create a Pig object
-        developer mynim = new nim();  // Create a Dog object
+        developer mydevelop = new developer();
+        developer myname = new name();
+        developer mynim = new nim(); 
         mydevelop.develop();
         myname.develop();
         mynim.develop();
